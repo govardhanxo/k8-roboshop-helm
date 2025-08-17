@@ -1,0 +1,6 @@
+deployment: 
+  imageURL: govardhanxo/catalogue
+  imageVersion: v1
+hpa:
+  maxReplicas: 10
+  utilization: 75
